@@ -3,7 +3,7 @@ This is an example project that uses React, Material UI, NodeJS and PostgreSQL
 ## Installation
 
 After cloning the repository, install dependencies:
-cd <project folder>
+cd [project folder]
 npm install
 
 Now you can run your local server:

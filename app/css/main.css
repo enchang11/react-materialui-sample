@@ -1,0 +1,348 @@
+/* HTML5 CSS3 Stylesheet Reset */
+
+body, h1, h2, h3, p, ul, li, form, input, header, nav, article, section, dialog, figure, aside, footer {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+textarea {
+  vertical-align: top;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+ul {
+  list-style: none;
+}
+* {
+  outline: none !important;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+a, a:hover {
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+}
+
+/*end HTML5 CSS3 Stylesheet Reset*/
+
+html {
+  font-family: 'Roboto', sans-serif;
+  background: #E3E3E3;
+  font-size: 13px;
+}
+
+body {
+  font-size: 13px;
+  line-height: 20px;
+  margin: 0 auto;
+}
+
+/*Login*/
+.login {
+  position: absolute;
+  width: 400px;
+  height: 220px;
+  left: 50%;
+  top: 50%;
+  margin: -110px 0 0 -200px;
+  border-radius: 3px;
+  background: #252830;
+}
+
+.login_icon {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin: 0 0 20px -67px;
+  font-size: 36px;
+  font-weight: bold;
+  color: #252830;
+}
+
+.login_input {
+  display: block !important;
+  height: 40px !important;
+  width: 360px !important;
+  padding: 0 10px !important;
+  border-radius: 3px !important;
+  font-size: 14px !important;
+  margin: 20px auto 0 auto !important;
+  background: #fff !important;
+  text-align: left !important;
+  color: #ADADAD !important;
+  border: 1px solid #D9D9D9;
+}
+
+.login_button {
+  height: 50px !important;
+  margin: 20px auto !important;
+  display: block !important;
+  width: 120px !important;
+  line-height: 50px !important;
+  border-radius: 3px !important;
+  border: none !important;
+  background: #91A30E !important;
+  text-align: center !important;
+  font-size: 16px !important;
+  font-weight: bold !important;
+  color: #FFF !important;
+}
+
+/*Header*/
+.header {
+  height: 60px !important;
+  width: 100% !important;
+  line-height: 60px !important;
+  background: #bac3b1 !important;
+}
+
+.search {
+  float: left;
+  height: 60px;
+}
+
+.search_button {
+  width: 47px;
+  height: 47px;
+}
+
+.searchInput {
+  font-size: 12px !important;
+  line-height: 35px !important;
+  height: 35px !important;
+  background-color: #ffffff !important;
+  border: 1px solid rgba(0, 0, 0, 0.15) !important;
+  -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s !important;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s !important;
+}
+
+.searchBtn {
+  width: 20px !important;
+  min-width: 40px !important;
+}
+
+/*Member*/
+.reg_modal label {
+  float:left;
+  height:30px;
+  line-height:30px;
+  width:150px;
+  font-weight: bold;
+}
+
+.reg_modal input[type=text],.reg_modal input[type=password],.reg_modal select {
+  float:left;
+  height:30px;
+  line-height:30px;
+  width:200px;
+  border:1px solid #666;
+  padding:0 5px;
+  border-radius:3px;
+}
+
+.grey_btn {
+  background: #ACACAC !important;
+  color: #fff !important;
+  margin: 5px !important;
+}
+
+.green_btn {
+  background: #91A30E !important;
+  color: #fff !important;
+}
+
+.successMsg {
+  width: 95%;
+  border: 1px solid #91A30E;
+  border-radius: 2px;
+  padding: 10px 0 10px 10px;
+  font-size: 12px;
+  font-style: italic;
+  color: #76850C;
+  margin-top: 20px; 
+}
+
+.errorMsg {
+  width: 95%;
+  border: 1px solid #B02700;
+  border-radius: 2px;
+  padding: 10px 0 10px 10px;
+  font-size: 12px;
+  font-style: italic;
+  color: #B02700;
+  margin-top: 20px;
+}
+
+/*Cabinet*/
+.cabinet_container {
+  float: left;
+  padding: 20px;
+  overflow: auto;
+  overflow-x: hidden;
+  width: 80%;
+  height: 990px;
+}
+
+.list {
+  float: left;
+  padding: 20px;
+  width: 20%;
+  background: #ebede9;
+}
+
+.addDoc {
+  float:right !important;
+  margin-top:7px !important;
+}
+
+.addCabinet {
+  float:right !important;
+}
+
+.cab {
+  float: left;
+  width: 300px;
+  background: #fff;
+  position: relative;
+  border-top: 3px solid #607d8b;
+}
+.cab h3 {
+  color: #252830;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 0 10px;
+  line-height: 50px;
+}
+
+.cabBtn {
+  float:right;
+}
+.cab > ul {
+  height: 304px;
+  margin-left: 5px;
+}
+
+.cab > ul > li:first-child {
+ border-top: 1px solid #ccc;
+}
+
+.cab > ul > li {
+  width: 290px;
+  display: block;
+  background: #fff;
+  overflow: hidden;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  position: relative;
+}
+
+.cab > ul > li > ul {
+  padding: 10px;
+  text-align: left;
+  overflow: auto; 
+  list-style-type: square;
+  list-style-position: inside;
+}
+
+/*History*/
+.history_modal > ul > li {
+  border-bottom: 1px dashed #CCC;
+  padding: 5px;
+  margin-top:20px; 
+}
+.history_modal > ul > li > ul {
+  padding: 5px 0 5px 10px;
+}
+.history_modal > ul > li > ul > li {
+  padding: 5px 0;
+}
+.history_modal > ul > li > ul > li > time {
+  font-size: 12px;
+  color: #719263;
+}
+.history_modal > ul > li > ul > li span {
+  font-size: 12px;
+  color: #999;
+}
+.history_modal > ul > li > ul > li i {
+  font-size: 12px;
+  color: #999;
+}
+
+
+.container {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.container:nth-child(odd) {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+/*
+ * note that styling gu-mirror directly is a bad practice because it's too generic.
+ * you're better off giving the draggable elements a unique class and styling that directly!
+ */
+.container div,
+.gu-mirror {
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+  transition: opacity 0.4s ease-in-out;
+}
+.container div {
+  cursor: move;
+  cursor: grab;
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
+  margin-bottom: 10px;
+}
+.container div:last-child {
+  margin-bottom: 0;
+}
+.gu-mirror {
+  cursor: grabbing;
+  cursor: -moz-grabbing;
+  cursor: -webkit-grabbing;
+}
+.container .ex-moved {
+  background-color: #e74c3c;
+}
+.container.ex-over {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.handle {
+  padding: 0 5px;
+  margin-right: 5px;
+  background-color: rgba(0, 0, 0, 0.4);
+  cursor: move;
+}
+
+.gu-mirror {
+  position: fixed !important;
+  margin: 0 !important;
+  z-index: 9999 !important;
+  opacity: 0.8;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  filter: alpha(opacity=80);
+}
+.gu-hide {
+  display: none !important;
+}
+.gu-unselectable {
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
+}
+.gu-transit {
+  opacity: 0.2;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+  filter: alpha(opacity=20);
+}
